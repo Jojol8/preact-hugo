@@ -24,3 +24,4 @@
           {{else}}
             Build n°{{build.number}} : KO
           {{/success}}
+# Test
