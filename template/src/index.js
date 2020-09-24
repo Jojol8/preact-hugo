@@ -1,5 +1,5 @@
 import './css/main.scss';
-import preactIcon from './img/preact.png';
+// import preactIcon from './img/preact.png';
 
 import { h, render, Component } from 'preact';
 
@@ -14,7 +14,7 @@ export default class App extends Component {
 	render() {
 		return (
 			<div>
-				<img src={preactIcon} style={{width: "200px", height: "200px", animation: `spin ${this.state.speed}s linear infinite` }}/>
+				<img src="https://chalarangelo.github.io/react-mini.css/icons/preact.svg" style={{width: "200px", height: "200px", animation: `spin ${this.state.speed}s linear infinite` }}/>
 				<h3>I am a Preact Component</h3>
 			</div>
 		);

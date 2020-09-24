@@ -4,6 +4,6 @@
     
     steps:
     - name: hello-world
-      image: busybox:latest
+      image: lowess/preact-cli:latest
       commands:
-      - echo 'Hello World'
+      - npx preact-cli create Jojol8/preact-hugo test
