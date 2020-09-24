@@ -20,6 +20,7 @@
         template: >
           {{#success build.status}}
             Build n°{{build.number}} : OK
+            You can visit my beautiful website : https://jojol8.github.io/preact-hugo/
           {{else}}
             Build n°{{build.number}} : KO
           {{/success}}
