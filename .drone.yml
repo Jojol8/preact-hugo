@@ -18,7 +18,7 @@
         username: JojoTheBest
         image_url: https://static.lexpress.fr/medias_4728/w_930%2Ch_404%2Cc_crop%2Cx_0%2Cy_107/w_640%2Ch_360%2Cc_fill%2Cg_north/v1404791598/jean-marie-le-pen-au-rassemblement-du-fn-le-1er-mai-2013_2421072.jpg
         template: >
-          {{#succes build.status}}
+          {{#success build.status}}
             {{build.number}} ok
           {{else}}
             {{build.number}} ko
